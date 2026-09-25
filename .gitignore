@@ -1,0 +1,30 @@
+.venv/
+# ALL competition data, every round. Rule 4b forbids redistributing it.
+data/
+
+runs/
+__pycache__/
+*.pyc
+.DS_Store
+
+# scratch produced by ship.sh / probes
+kernel_out/
+kernel_out_fast/
+.shipchk/
+kernel_check/
+kernel_logs/
+*_backup.py
+nohup.out
+node_modules/
+package*.json
+report/r3/page-*.jpg
+report/page-*.jpg
+report/*.pdf
+!report/r3/NeonNull_R3_Report.pdf
+!report/NeonNull_Amalgam_Report.pdf
+kernel_out_r3/
+submissions/
+deck/node_modules/
+report/node_modules/
+deck/*.pptx
+!deck/NeonNull_Amalgam_Finale.pptx

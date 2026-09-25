@@ -1,0 +1,15 @@
+{
+  "id": "sahilsadhwani25/neonnull-round-3",
+  "title": "NeonNull Round 3",
+  "code_file": "amalgam-r3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["competitions/amalgam-final-round"],
+  "kernel_sources": [],
+  "model_sources": []
+}
