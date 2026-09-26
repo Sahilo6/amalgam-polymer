@@ -1,15 +1,18 @@
 # NeonNull — finale script for two speakers
 
-Same 12 slides, same argument, two voices. Target **9:15 delivered** in a
-10-minute slot.
+Same 12 slides, same argument, two voices. It runs a shade over nine minutes in
+a ten-minute slot.
+
+**One checkpoint to rehearse against:** slide 8 should be starting at around the
+six-minute mark. If it's later than that, take the cuts at the end of this file.
 
 ## The division
 
-| Slides | Speaker | Runs |
-|---|---|---|
-| 1 – 5 | **Sahil** | 4:10 |
-| 6 – 10 | **Neerav** | 3:35 |
-| 11 – 12 | **Sahil** | 1:00 |
+| Slides | Speaker |
+|---|---|
+| 1 – 5 | **Sahil** |
+| 6 – 10 | **Neerav** |
+| 11 – 12 | **Sahil** |
 
 Two handoffs, not twelve. Every handoff online costs a few seconds of dead air
 and a moment where nobody is sure who is talking, so we do it twice and both
@@ -46,8 +49,7 @@ air, no "can you hear me".
 
 # SAHIL — slides 1 to 5
 
-## 1 — Cover · 0:00 → 0:25
-
+## 1 — Cover
 Good morning. I'm Sahil, this is Neerav, and we're Team NeonNull, joining from
 Vellore.
 
@@ -60,8 +62,7 @@ twenty training rows each**, and the score weights all seven equally.
 
 `[→ ADVANCE]`
 
-## 2 — The imbalance · 0:25 → 1:20
-
+## 2 — The imbalance
 So here is the shape of it. **Seventy one percent of the metric is carried by
 fourteen percent of the data.** //
 
@@ -77,8 +78,7 @@ The only way to get more signal is to bring in rows from somewhere else.
 
 `[→ ADVANCE]`
 
-## 3 — We measured the targets first · 1:20 → 2:30  ★
-
+## 3 — We measured the targets first  ★
 *(Slow down. The whole talk hangs on this slide.)*
 
 So the question becomes: which somewhere else. And we decided to **measure that
@@ -104,8 +104,7 @@ That slide decided the architecture, before we ran a single model.
 
 `[→ ADVANCE]`
 
-## 4 — Architecture · 2:30 → 3:20
-
+## 4 — Architecture
 Which gives us this. Two paths and one shared encoder.
 
 The tree path is RDKit descriptors, fingerprints, and eighteen polymer-specific
@@ -123,8 +122,7 @@ all three thousand two hundred electronic rows.
 
 `[→ ADVANCE]`
 
-## 5 — Where the gain lands · 3:20 → 4:10  ★
-
+## 5 — Where the gain lands  ★
 And this is the result I'd point you to first.
 
 Refractive index gains **zero point zero five six**. Dielectric constant, **zero
@@ -153,8 +151,7 @@ left.
 
 # NEERAV — slides 6 to 10
 
-## 6 — Results · 4:10 → 5:00
-
+## 6 — Results
 Thanks Sahil.
 
 Full numbers. These are out-of-fold, and the blend weights are fitted by nested
@@ -171,8 +168,7 @@ the shared encoder, zero point nine one four at ten folds.
 
 `[→ ADVANCE]`
 
-## 7 — Predictions · 5:00 → 5:20
-
+## 7 — Predictions
 All seven targets against truth. The orange panels are the small ones. They're
 noisier, which is what two hundred rows should look like.
 
@@ -181,8 +177,7 @@ fan, no drift at the extremes. There isn't.
 
 `[→ ADVANCE]`
 
-## 8 — Invariance · 5:20 → 6:35  ★
-
+## 8 — Invariance  ★
 *(This is your slide. Drop your pace, and give the two-spellings line room.)*
 
 Now the part we think matters most, and it isn't a score. //
@@ -209,8 +204,7 @@ canonical, so this was live in the competition data.
 
 `[→ ADVANCE]`
 
-## 9 — What didn't work · 6:35 → 7:15
-
+## 9 — What didn't work
 Nineteen experiments. Four survived. Three are worth naming.
 
 **PI1M pretraining.** We masked atoms and learned to reconstruct them across a
@@ -224,8 +218,7 @@ And multi-task including glass transition: **minus zero point zero two three**.
 
 `[→ ADVANCE]`
 
-## 10 — Round 2 to Round 3 · 7:15 → 7:50  ★
-
+## 10 — Round 2 to Round 3  ★
 Which is the point of this slide. That minus zero point zero two three is from
 Round Two, where **the same technique made things worse**. One encoder over
 glass transition and band gap. They share no physics, so the shared encoder just
@@ -249,8 +242,7 @@ architecture, instead of trying multi-task and seeing what happened.
 
 # SAHIL — slides 11 and 12
 
-## 11 — Particulars · 7:50 → 8:20
-
+## 11 — Particulars
 Thanks Neerav.
 
 Briefly, the engineering. Three hundred and eighty seven thousand parameters.
@@ -264,8 +256,7 @@ five on every run of the competition.
 
 `[→ ADVANCE]`
 
-## 12 — Close · 8:20 → 8:50
-
+## 12 — Close
 To close, what this says about polymers. Band gap falls as conjugation runs
 further along the backbone. Refractive index and dielectric constant rise with
 the same polarisable, aromatic-rich backbones that narrow that gap.
@@ -306,8 +297,8 @@ You need three run-throughs together, not one.
    words that don't sit right in his mouth. Change them. A script you fight is
    worse than one you wrote.
 2. **Timed, cameras on, screen shared.** Full dress. Sahil practises advancing
-   during Neerav's section. Time each block separately and write the real numbers
-   next to the targets above.
+   during Neerav's section. Run a single clock for the whole thing and check it
+   against the slide-8 checkpoint, rather than timing anyone separately.
 3. **Handoffs only.** Run just the last twenty seconds of slide 5 and the first
    twenty of slide 6, then the same around slide 10. Five times each. Handoffs
    are the only thing in a two-person talk that a solo talk doesn't have, so
