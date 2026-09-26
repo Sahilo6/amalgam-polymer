@@ -51,12 +51,13 @@ through, and straining is what makes a remote presenter forgettable.
 
 ### Where your script lives
 
-You have one screen and you are sharing it, so PowerPoint presenter view is not
-available unless you have a second monitor. If you don't:
+Sahil shares the screen, so PowerPoint presenter view is not available to him
+unless he has a second monitor. If he doesn't:
 
-- Open `SCRIPT.md` **on your phone, propped behind the laptop at eye level.**
-  Not flat on the desk. Eyes down at a desk reads as reading; eyes near the
-  camera reads as talking.
+- Open `SCRIPT_TWO_PERSON.md` **on your phone, propped behind the laptop at eye
+  level.** Both of you do this, not just the person sharing. Not flat on the
+  desk. Eyes down at a desk reads as reading; eyes near the camera reads as
+  talking.
 - Phone on Do Not Disturb and screen timeout set to 10 minutes or Never.
 
 If you do have a second monitor, use presenter view and put the notes there.
